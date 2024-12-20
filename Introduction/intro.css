@@ -1,1 +1,32 @@
 /* This is how to comment in css */
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/*adds a color in the body of html*/
+
+h1 {
+    color: navy;
+}
+
+/*adds a color in the h1 of html*/
+
+h2 {
+    color: red;
+}
+/*adds a color in the h2 of html*/
+
+h3 {
+    color: green;
+}
+/*adds a color in the h3 of html*/
+
+p {
+    color: blue;
+}
+/*adds a color in the p of html*/
+
+pre {
+    color: grey;
+}
+/*adds a color in the pre of html*/
