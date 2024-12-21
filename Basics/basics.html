@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en"> <!--to specify what language your web is-->
 
 <head>
+    <link rel="stylesheet" href="basics.css"> <!--linking the css file in this html file-->
     <title>Basics of Html</title>
 </head>
 
 <body>
+    <h1>Basics of Html</h1> <!--this is a heading-->
+    <h2> This is a header </h2>
+
     <!--Attributes in HTML-->
 
     <a href="https://github.com/Slushieee-7"> Click here to see more tutorials! </a>
@@ -26,6 +30,44 @@
         This is a brown paragraph
     </p> <!--This is how to style a text, but u can put these kind of styles in the CSS file-->
 
+    <p title="OMO U FOUND ME ^o^ ">
+        Hover your mouse on this paragraph
+    </p> <!--This is called the title attribute, wherein u can put additional information about the text-->
+
+    <video width="500px" height="400px" controls="controls">
+        <source src="title attribute example.mp4" type="video/mp4">
+    </video> <!--This is how u can add a video in html-->
+
+    <pre>
+        Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. 
+        Debitis nobis commodi 
+        nisi quaerat aspernatur! 
+        Saepe, voluptatem quod 
+        nostrum commodi quo 
+        repellendus asperiores 
+        vero impedit voluptate 
+        ipsa blanditiis magnam 
+        distinctio debitis?
+    </pre>
+
+    <p1 id="game">
+        Let's play rock paper scissors using these buttons 
+        <br>
+        <button type="button" onclick="changeImage('rock')"> I am a rock </button>
+        <button type="button" onclick="changeImage('paper')"> I am a paper </button>
+        <button type="button" onclick="changeImage('scissors')"> I am a scissor </button>   
+    </p1> <!--buttons 
+            type - is always button since u r going to make a button to function
+            onclick - is what will the button do, when it is clicked
+            changeImage() - is the name of the function at the basic.js file
+            (inside of the changeImage) - is the choice when converted to the code in the JavaScript
+            then lastly, is the message of the button 
+            -->
+
+    <img id = "image" src="" alt="your choice"> <!--this is where the image will be displayed-->
+    <script src="basics.js"></script> <!--to link the js file in this html file-->
 </body>
+
 
 </html>
