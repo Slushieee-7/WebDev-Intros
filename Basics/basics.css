@@ -1,0 +1,32 @@
+/* at the previous code, we learned how to have basic styles in css */
+h2 {
+    background-color: green;
+    opacity: 0.5;
+}
+
+/* here we style the site with green bg color at the head and opacity (which will have no effect)*/
+
+h1 {
+    background-color: lightblue;
+    background-repeat: repeat-x;
+}
+/* makes a horizontal line with the assigned color */
+
+body {
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    opacity: 1.0;
+    background-position: right;
+    background-size: 200px;
+}
+
+/* here we style the text with a background image 
+using the background no-repeat, which will not fill the whole webpage
+opacity, to determine its opacity ofcourse (dumbfuck)
+its background position
+and its background size */
+
+pre{
+    background: url("anotha\ image.jpg") right 100px; 
+}  /*shorthand or shorter syntax */
+
