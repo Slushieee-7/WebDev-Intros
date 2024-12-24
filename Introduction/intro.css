@@ -30,3 +30,9 @@ pre {
     color: grey;
 }
 /*adds a color in the pre of html*/
+
+div{
+    width: 300px;
+    margin: auto;
+}
+/*centering a div
