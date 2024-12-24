@@ -1,0 +1,14 @@
+h1{
+    font-size: 85px;  
+}
+
+textarea{
+    width: 2500px;
+    height: 300px;
+}
+div {
+    text-align: center;
+}
+body{
+    background-color: lightgreen;
+}
