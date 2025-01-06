@@ -1,12 +1,27 @@
 /* This is how to comment in css */
 /* CSS is where the styles are stored*/
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: rgb(255, 255, 255);
 }
+
 /*adds a color in the body of html*/
 
 h1 {
     color: navy;
+    background-image: linear-gradient(0deg, red 0%,
+            orange calc(16.67%),
+            yellow calc(16.67% * 2),
+            green calc(16.67% * 3),
+            blue calc(16.67% *4),
+            indigo calc(16.67% *5),
+            violet calc(16.67% *6));
+    padding: 10px;
+    border: 20px solid gray;
+
 }
 
 /*adds a color in the h1 of html*/
@@ -14,25 +29,34 @@ h1 {
 h2 {
     color: red;
 }
+
 /*adds a color in the h2 of html*/
 
 h3 {
     color: green;
 }
+
 /*adds a color in the h3 of html*/
 
 p {
     color: blue;
 }
+
 /*adds a color in the p of html*/
 
 pre {
     color: grey;
 }
+
 /*adds a color in the pre of html*/
 
-div{
+div {
     width: 300px;
     margin: auto;
 }
+
+.wrapper ~ .ther{
+    display:none;
+}
+
 /*centering a div
